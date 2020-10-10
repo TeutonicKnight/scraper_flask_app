@@ -23,7 +23,7 @@ $ heroku config --app APP_NAME | Check state of Heroku environment settings
 $ python manage.py db init | Initialize Alembic
 $ python manage.py db migrate | Create database migration
 $ heroku addons:create heroku-postgresql:hobby-dev --app APP_NAME | Add postgress addon to heroku app
-$ heroku run python manage.py db upgrade --app APP_NAME | Add migrations to heroku database
+$ heroku run python manage.py db upgrade --app APP_NAME | Add migrations to heroku database (run after deployment)
 
 
 
